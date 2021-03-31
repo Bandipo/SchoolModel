@@ -1,3 +1,8 @@
+/**
+ * Project: School Model Project
+ * Project by: Bandipo Taiye Olusayo
+ *
+ */
 package model;
 
 public class PersonInSchool {
@@ -10,7 +15,7 @@ public class PersonInSchool {
     private double salary;
     private String courseTeaching =null;
     private boolean student;
-    private boolean isTeacher = true;
+    private boolean isTeacher;
 
 
     //this constructor has all the class's field to be set for object that requires all fields

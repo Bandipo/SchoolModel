@@ -14,8 +14,11 @@ public class Main {
         System.out.println(student.takeCourse("math"));// return Take course
         System.out.println(student.getName());
 
+      //The Principal admit student
         String principalAdmit = new SchoolActivities().admitStudent(student.getAge(), student.getName());
         System.out.println(principalAdmit);
+
+
 
 
     }

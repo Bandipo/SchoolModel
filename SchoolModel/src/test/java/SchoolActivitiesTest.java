@@ -1,5 +1,6 @@
 import model.PersonInSchool;
 import model.SchoolActivities;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -8,6 +9,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class SchoolActivitiesTest {
     SchoolActivities sch = new SchoolActivities();
     PersonInSchool teacher = new PersonInSchool();
+
+    @BeforeEach
+    public void setup() throws Exception{
+        teacher = new PersonInSchool("Bandipo Taiye",27,true,"Academics",250000,"Married","Academics","math");
+
+
+
+    }
 
     @Test
     @DisplayName("Test for teach course")
